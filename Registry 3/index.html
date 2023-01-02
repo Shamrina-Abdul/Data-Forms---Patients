@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>QUESTIONNAIRE FOR OPEN FRACTURE</title>
+        <script src="jquery-2.2.2.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css">
+ 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+        </script>
+ 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js">
+        </script>
+ 
+    
+        <link rel="stylesheet" href=
+        "https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+ 
+        <script src=
+        "https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href=
+        "https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+ 
+        <script src=
+            "https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+    </script>
+
+    </head>
+<body>
+    
+<section id=Patient>
+        <div class="section-title">QUESTIONNAIRE FOR OPEN FRACTURE</div>
+        <div class="full-detail">
+    <h1 class="patient-header">Pateint Details</h1>
+<div class="details">
+<form>
+    <div class="fulldiv">
+    <div class="division1">
+    <div class="form-group">
+        <label for="subject" style="font-size: 2rem;"><b>Name:<span class="red">*</span></b></label>
+        
+        <textarea id="subject" name="subject" placeholder="Enter your Name" required></textarea>
+    </div> <br>
+
+    
+        <div class="form-group ">
+        <label for="Select Your Area" style="font-size: 2rem;"><b>Gender/Sex</b></label>
+      <select id="area select" name="area" class="selector required" required>
+        <option value="Choose" disabled selected hidden>--Select--</option>
+        
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Prefer not to say">Prefer not to say</option>
+        
+      </select> 
+      </div> 
+    
+      <br>
+      
+      <div class="form-group ">
+        <label for="subject" style="font-size: 2rem;"><b>Age:<span class="red">*</span></b></label>
+
+        <textarea id="subject" name="subject" placeholder="Enter your Age.." required></textarea>
+      </div>
+
+    <br>
+
+   
+
+    <div class="form-group">
+        <label for="subject" style="font-size: 2rem;"><b>Height:<span class="red">*</span></b></label>
+
+        <textarea id="subject" name="subject" placeholder="Enter Height in cm.." required></textarea> 
+      </div>
+
+    <br>
+
+    <div class="form-group">
+        <label for="subject" style="font-size: 2rem;"><b>Weight:<span class="red">*</span></b></label>
+
+        <textarea id="subject" name="subject" placeholder="Enter Weight in lbs" required></textarea> 
+      </div>
+    </div>
+
+    <br>
+    <div class="division2">
+    <div class="form-group">
+        <label for="subject" style="font-size: 2rem;"><b>Name of Hospital:<span class="red">*</span></b></label>
+
+        <textarea id="subject" name="subject" style="height: 54px;"  required></textarea> 
+      </div>
+
+    <br>
+
+    <div class="form-group">
+        <label for="subject" style="font-size: 2rem;"><b>State:<span class="red">*</span></b></label>
+
+        <textarea id="subject" name="subject" required></textarea> 
+      </div>
+
+    <br>
+
+    <div class="form-group">
+        <label for="subject" style="font-size: 2rem;"><b>Consultant Surgeon:<span class="red">*</span></b></label>
+
+        <textarea id="subject" name="subject" style="height: 45px;" required></textarea> 
+      </div>
+      <br>
+      <div class="form-group">
+        <label for="subject" style="font-size: 2rem;"><b>Address:<span class="red">*</span></b></label>
+
+        <textarea id="subject" name="subject" placeholder="Enter Address" style="height:70px" required></textarea> 
+      </div>
+
+    <br>
+
+    <div class="form-group">
+        <label for="subject" style="font-size: 2rem;"><b>Occupation (optional):</b></label>
+
+        <textarea id="subject" name="subject" placeholder="Occupation.." style="height:54px" optional></textarea> 
+      </div>
+
+    <br>
+    </div>
+
+ </div> 
+ <p><strong><span class="red">*</span> is mandatory</strong></p>  
+</form>
+</div>
+</div>
+</div>
+<br>
+</section>
+
+<section id="form">
+<div class= "container">
+    <form>
+        <div class="form-group">
+            <label for="Select-Your-Area1" id="label-color"><b>Time of injury</b></label>
+          <select id="area1" name="area" required>
+            <option value="Choose" disabled selected hidden>Choose</option>
+            <option value="Morning">Morning</option>
+            <option value="Afternoon">Afternoon</option>
+            <option value="Evening">Evening</option>
+            <option value="Night-time">Night-time</option>
+            
+          </select>
+          </div>
+        
+        <br>
+
+        <div class="form-group">
+            <label for="Select Your Area" id="label-color"><b>Time of Arrival To hospital (after injury)</b></label>
+          <select id="area" name="area" >
+            <option value="Choose" disabled selected hidden>Choose</option>
+            <option value="less than 2 hrs"> less than 2 hrs</option>
+            <option value="2-6 hrs">2-6 hrs</option>
+            <option value="6-24 hrs">6-24 hrs</option>
+            <option value="more than 24 hrs">more than 24 hrs</option>
+            
+          </select>
+          </div>
+
+
+        <br>
+
+        <div class="form-group">
+            <label for="Select Your Area" id="label-color"><b>Gap till Primary Debridement</b></label>
+          <select id="area" name="area" >
+            <option value="Choose" disabled selected hidden>Choose</option>
+            <option value="less than 6 hrs"> less than 6 hrs</option>
+            <option value="6-12 hrs">6-12 hrs</option>
+            <option value="more than 12 hrs">more than 12 hrs</option>
+            
+          </select>
+          </div>
+
+        <br>
+        <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css">
+ 
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+    </script>
+ 
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js">
+    </script>
+ 
+    
+    <link rel="stylesheet" href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+ 
+    <script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+    </script>
+
+        <div class="form-group">
+            <label for="Select Your Area" id="label-color"><b>Mode of injury</b></label>
+          <select id="area" name="area" class="mul-select" multiple="true">
+            <option value="Choose" disabled>Choose</option>
+            <option value="High energy"> High energy</option>
+            <option value="low energy">Low energy</option>
+            <option value="Crush injury">Crush injury</option>
+            <option value="Farmyard injury">Farmyard injury</option>
+            
+          </select>
+         
+          </div>
+
+          <br>
+
+          <div class="form-group">
+              <label for="Select Your Area" id="label-color"><b>Type of injury</b></label>
+              <select id="area" name="Wound size" style="margin-bottom: 15px;">
+              <option value="Wound size" disabled selected hidden>---Choose Wound size---</option>
+              <option value="less than 1 cm">less than 1 cm </option>
+              <option value="1-10cm">1-10 cm</option>
+              <option value="more than 10 cm">more than 10 cm</option>
+              
+            </select>
+
+            <select id="area" name="Crushing" style="margin-bottom: 15px;">
+                <option value="Crushing" disabled selected hidden>---Choose Crushing---</option>
+                <option value="simple #">Simple #</option>
+                <option value="Segmental">Segmental</option>
+                <option value="Crush injury">Crush injury</option>
+                
+              </select>
+
+              <select id="area" name="Contamination" style="margin-bottom: 15px;">
+                <option value="Contamination" disabled selected hidden>---Choose Contamination---</option>
+                <option value="No">No</option>
+                <option value="Mild">Mild</option>
+                <option value="Significant">Significant</option>
+                
+              </select>
+              
+              <select id="area" name="Nerve injury" style="margin-bottom: 15px;">
+                <option value="Nerve injury" disabled selected hidden>---Choose Nerve injury---</option>
+                <option value="No">No</option>
+                <option value="Yes">Yes</option>
+                
+              </select>
+              <select id="area" name="Vascular injury"style="margin-bottom: 15px;">
+                <option value="Vascular injury" disabled selected hidden>---Choose Vascular injury---</option>
+                <option value="No">No</option>
+                <option value="Yes">Yes</option>
+                
+              </select>
+            </div>
+
+            <br>
+
+        <div class="form-group">
+        <label for="Select Your Area" id="label-color"><b>Fracture classification</b></label>
+        <br>
+        <label for="Select Your Area" id="label-color"><b>Upper Limb</b></label>
+          <select id="area" name="Upper Limb"class="mul-select"style="margin-bottom: 15px;" multiple>
+            <option value="Choose" disabled>---Choose Upper Limb---</option>
+            <option value="Shoulder">Shoulder</option>
+            <option value="Arm">Arm</option>
+            <option value="Elbow">Elbow</option>
+            <option value="Forearm">Forearm</option>
+            <option value="Wrist">Wrist</option>
+            <option value="Hand">Hand</option>
+            
+          </select>
+          <br>
+        <label for="Select Your Area" id="label-color"><b>Lower Limb</b></label>
+          <select id="area" name="Lower Limb" style="margin-bottom: 15px;" class="mul-select" multiple>
+            <option value="Choose"disabled >---Choose Lower Limb---</option>
+            <option value="Pelvis">Pelvis</option>
+            <option value="Hip">Hip</option>
+            <option value="Thigh">Thigh</option>
+            <option value="Knee">Knee</option>
+            <option value="Leg">Leg</option>
+            <option value="Foot">Foot</option>
+            
+          </select>
+        
+          </div>
+
+          <br>
+          <div class="form-group">
+            <label for="Select Your Area" id="label-color"><b>Gustilo Anderson Classification</b></label>
+          <select id="area" name="area" >
+            <option value="Choose" disabled selected hidden>---Choose Gustilo Anderson Classification---</option>
+            <option value="I">I</option>
+            <option value="II">II</option>
+            <option value="IIIA">IIIA</option>
+            <option value="IIIB">IIIB</option>
+            <option value="IIIC">IIIC</option>
+            
+          </select>
+          </div> 
+
+          <br>
+          <div class="form-group">
+            <label for="Select Your Area" id="label-color"><b>Ganga Score</b></label>
+          <select id="area" name="Skin & Fascia" style="margin-bottom: 15px;">
+            <option value="Skin & Fascia"  disabled selected hidden>---Choose Skin & Fascia---</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            
+          </select>
+          <select id="area" name="Musc. & Nerve Unit" style="margin-bottom: 15px;" >
+            <option value="Musc. & Nerve Unit" disabled selected hidden>---Choose Musc. & Nerve Unit---</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            
+          </select>
+          <div class="form-group">
+        <select id="area" name="Skeletal Structure" style="margin-bottom: 15px;">
+            <option value="Skeletal Structure" disabled selected hidden>---Choose Skeletal Structure---</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            
+          </select>
+          <div class="form-group">
+          <select id="area" name="Co-Morbidity score" style="margin-bottom: 15px;">
+            <option value="Co-Morbidity score" disabled selected hidden>---Choose Co-Morbidity score---</option>
+            <option value="0">0</option>
+            <option value="2-4">2-4</option>
+            <option value="4-8">4-8</option>
+            <option value="8-14">8-14</option>
+            
+            </select>
+          </div>
+    <br>   
+    <div class="form-group">
+    <label name="Skeletal Trauma" id="label-color"><b>Skeletal Trauma</b></label>
+    <select id="area" name="Skeletal Trauma">
+        <option value="Skeletal Trauma " disabled selected hidden>---Choose Skeletal Trauma</option>
+        <option value="Ipsilateral Same Limb ">Ipsilateral Same Limb</option>
+        <option value="Ipsilateral Other Limb ">Ipsilateral Other Limb</option>
+        </select> 
+    <input type="text" placeholder="Mention if other"style="font-size: 1.6rem" optional class="input-type">
+    </div>
+    <br>
+
+    <div class="form-group">
+    <label name="Associated Injury" id="label-color"><b>Associated Injury</b></label>
+    <select id="area" name="Associated Injury" class="mul-select" multiple>
+        <option value="Associated Injury " disabled>--Choose Associated Injury--</option>
+        <option value=" Head Injury">Head Injury</option>
+        <option value="Chest Injur ">Chest Injury</option>
+        <option value="Abd Injury ">Abd Injury</option>
+        <option value="Hypotension ">Hypotension</option>
+    </select> 
+    <input type="text" placeholder="Mention if other"style="font-size: 1.6rem" optional class="input-type">
+    <script>
+        $(document).ready(function() {
+            $(".mul-select").select2({
+                placeholder: "Choose",
+                tags: true,
+            });
+        })
+    </script>
+</div>
+<br>
+
+    <div class="form-group">
+    <label name="Associated Medical Injury" id="label-color"><b>Associated Medical Injury</b></label>
+    <select id="area" name="Associated Medical Injury" class="mul-select" multiple>
+        <option value="Associated Medical Injury" disabled>---Choose Associated Medical Injury --</option>
+        <option value="DM ">DM</option>
+        <option value="HTN">HTN</option>
+        <option value="Cardiac Illness ">Cardiac Illness</option>
+        <option value="Respiratory Illness ">Respiratory Illness</option>
+        <option value="Epilepsy ">Epilepsy</option>
+    </select> 
+    <input type="text" placeholder="Mention if other"style="font-size: 1.6rem" optional class="input-type">
+</div>
+<br>
+   <div class="form-group">
+              <label for="Select Your Area" id="label-color"><b>Management Profile</b></label>
+            </div>
+              <br>
+              
+    <div class="form-group">   
+    <label name="Pre-Hosipatal Care" id="label-color"><b>Pre-Hosipatal Care</b></label>
+            <select id="area" name="Pre-Hosipatal Care">
+                <option value="Pre-Hosipatal Care " disabled selected hidden>--Choose Pre-Hosipatal Care --</option>
+                <option value="Given ">Given</option>
+                <option value="Not Given ">Not Given</option>
+            </select>  
+        </div>
+        <br>
+    <div class="form-group">       
+    <label name="Initial Management" id="label-color"><b>Initial Management</b></label>
+        <select id="area" name="Initial Management" class="mul-select" multiple>
+            <option value="Initial Management "disabled >--Choose Initial Management--</option>
+            <option value="Fluid Wash ">Fluid Wash</option>
+            <option value="POP ">POP</option>
+            <option value="External Fixator ">External Fixator</option>
+            <option value="Primary SX ">Primary SX</option>
+        </select> 
+    </div>
+    <br>
+     <div class="form-group">   
+     <label name="Total Blood Transfusion" id="label-color"><b>Total Blood Transfusion</b></label>
+    <select>
+        <option value="Total Blood Transfusion " disabled selected hidden>--Choose Total Blood Transfusion--</option>
+        <option value="Nil ">Nil</option>
+        <option value="1-2 Packs ">1-2 Packs</option>
+        <option value=" >2 Packs "> >2 Packs</option>
+    </select>
+</div>
+<br>
+    <div class="form-group">
+    <label name="Antibiotics" id="label-color"><b>Antibiotics</b></label>
+    <select id="area" name="Antibiotics">
+        <option value="Antibiotics " disabled selected hidden>--Choose Antibiotics--</option>
+        <option value="None ">None</option>
+        <option value="Single Antibiotic ">Single Antibiotic</option>
+        <option value="Double Antibiotic ">Double Antibiotic</option>
+        <option value="Triple Antibiotic ">Triple Antibiotic</option>
+    </select>
+</div>
+<br>
+    <div class="form-group">
+    <label name="Surgical Debridement" id="label-color"><b>Surgical Debridement</b></label>
+    <select id="area" name="Surgical Debridement">
+        <option value="Surgical Debridement " disabled selected hidden>--Choose Surgical Debridement--</option>
+        <option value="Conservative ">Conservative</option>
+        <option value="Wash">Wash</option>
+        <option value="Radical ">Radical</option>
+    </select> 
+    <input type="text" placeholder="Mention if other"style="font-size: 1.6rem" optional class="input-type">
+</div>
+<br>
+    <div class="form-group">
+    <label name="Duration Of Surgery" id="label-color"><b>Duration Of Surgery</b></label>
+        <select id="area" name="Duration Of Surgery">
+            <option value="Duration Of Surgery" disabled selected hidden>--Choose Duration Of Surgery--</option>
+            <option value= "1"> Less than 1Hour </option>
+            <option value="1-2 Hours "> 1-2 Hours </option>
+            <option value=" >2Hours "> Greater than 2Hours </option>
+        </select> 
+    </div>
+    <br>
+    <div class="form-group">    
+    <label name="Blood Loss" id="label-color"><b>Blood Loss</b></label>
+    <select id="area" name="Blood Loss">
+        <option value="Blood Loss " disabled selected hidden>--Choose Blood Loss--</option>
+        <option value="Less than 100ml "> Less than 100ml </option>
+        <option value="100-200ml "> 100-200ml </option>
+        <option value="Greater than 200ml "> Greater than 200ml </option>
+     </select> 
+    </div>
+    <br>
+    <div class="form-group"> 
+    <label name="Implant Used" id="label-color"><b>Implant Used</b></label>
+    <select id="area" name="Implant Used" class="mul-select" multiple>
+        <option value="Implant Used " disabled>--Choose Implant Used--</option>
+        <option value="None ">None</option>
+        <option value="Ex.Fix ">Ex.Fix</option>
+        <option value="Plating ">Plating</option>
+        <option value="Nailing ">Nailing</option>
+    </select> 
+    <input type="text" placeholder="Mention if other"style="font-size: 1.6rem" optional class="input-type">
+</div>
+<br>
+    <div class="form-group">
+    <label name="Soft Tissue Procedure" id="label-color"><b>Soft Tissue Procedure</b></label>
+                <select id="area" name="Soft Tissue Procedure">
+                    <option value="Soft Tissue Procedure " disabled selected hidden>--Choose Soft Tissue Procedure--</option>
+                    <option value=" Yes">Yes</option>
+                    <option value="No ">No</option>
+                </select> 
+            </div>
+            <br>
+     <div class="form-group">           
+    <label name="Intra-op Complication" id="label-color"><b>Intra-op Complication</b></label>
+            <select id="area" name="Intra-op Complication" class="mul-select" multiple>
+                <option value="Intra-op Complication "disabled>--Choose Intra-op Complication--</option>
+                <option value="Vascular Injury ">Vascular Injury</option>
+                <option value="Nerve Injury ">Nerve Injury</option>
+                <option value="Tendon ">Tendon</option>
+                <option value="Bone Loss ">Bone Loss</option>
+            </select> 
+            <input type="text" placeholder="Mention if other"style="font-size: 1.6rem" optional class="input-type">
+        </div>
+        <br>
+    <div class="form-group">        
+    <label name="Local Post-OP Complication" id="label-color"><b>Local Post-OP Complication</b></label>
+        <select id="area" name="Local Post-OP Complication">
+            <option value="Local Post-OP Complication " disabled selected hidden>--Choose Local Post-OP Complication-- </option>
+            <option value="None ">None</option>
+            <option value="Mild Infection">Mild Infection</option>
+            <option value="Severe Infection ">Severe Infection</option>
+        </select> 
+    </div>
+    <br>
+    <div class="form-group">    
+    <label name="Post-OP Complication" id="label-color"><b>Post-OP Complication</b></label>
+    <select id="area" name="Post-OP Complication" class="mul-select" multiple>
+        <option value="Post-OP Complication " disabled>--Choose Post-OP Complication-- </option>
+        <option value="None ">None</option>
+        <option value="ARDS ">ARDS</option>
+        <option value="Pul.Embolism ">Pul.Embolism</option>
+        <option value="ARF ">ARF</option>
+        <option value="Vascular Injury ">Vascular Injury</option>
+      
+    </select> 
+    <input type="text" placeholder="Mention if other"style="font-size: 1.6rem" optional class="input-type">
+          </div>
+        <br>
+          <input type="submit" value="Submit">
+        </form>
+     
+</div>
+</section>
+
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,350 @@
+/* * {
+    outline: 1px solid red;
+  } */
+
+  option{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+select{
+    background-color: #fff;
+    opacity: 0.80;
+    border: 2px solid rgb(255, 130, 130);
+}
+.mul-select{
+    background-color: #fff;
+    opacity: 0.80;
+    border: 2px solid rgb(255, 130, 130);
+}
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+  
+section{
+    background-color: #000000;
+    opacity: 0.8;
+}
+.patient-header{
+    position: relative;
+    width: 100%;
+    font-weight: bold;   
+}
+
+input[type=submit] {
+      
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration:0.4s;
+    border: none;
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    border:2px solid #301f02;
+    position: relative;
+    left: 500px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #2e2222;
+    color: white;
+  }
+  .red {
+    color: red;
+    }
+    
+  .form {
+    border-radius: 5px;
+    padding: 20px;   
+  }
+  
+  .Patient {
+    border-radius: 5px;
+    padding-bottom: 100px;
+    padding-top: 75px;
+  }
+
+  #Patient h1{
+  display: block;
+  width: fit-content;
+  font-size: 3rem;
+  color: #704f4f;
+  text-align:center;
+  padding-inline-start: 40%;  
+}
+.section-title{
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%  ;
+  color: #fff;
+}
+.container {
+max-width: 1200px;
+width: 90%;
+margin: auto;
+}
+.details{
+max-width: 1200px;
+width: 90%;
+margin: auto;
+}
+
+
+
+.division1{
+    width: 50%;
+    position: relative;
+    float: right;
+    margin-right: 60px;
+    padding: 10px;
+}
+
+.division2{
+    width: 50%;
+    position: relative;
+    float: left;
+    padding: 10px;
+}
+
+.full-detail{
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: #fff;
+    padding: auto;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    opacity: 0.75;
+}
+
+.fulldiv{
+    width: 1200px;
+    display: flex;
+    position: relative;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(61, 29, 98);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    resize: vertical;
+    box-shadow: 1px 1px 1px #999;
+    font-weight: normal;
+    font-size: 0.8rem;
+  }
+textarea{
+    font-size: 1rem;
+}
+textarea:hover{
+    box-shadow: 1px 1px 1px rgb(245, 164, 4);
+    border: 2.5px solid rgb(198, 184, 184);
+    z-index: 10;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+  }
+
+  textarea:focus {
+    background: none repeat scroll 0 0 #e0d8d8;
+    outline-width: 0;
+    opacity: 0.4;
+    color: black;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+
+textarea:optional {
+    border-color: gray;
+  }
+  textarea:required:valid {
+    border-color: green;
+  }
+  textarea:invalid {
+    border-color: red;
+  }
+  textarea:required:focus:valid {
+    background: url("https://assets.digitalocean.com/labs/icons/hand-thumbs-up.svg") no-repeat 95% 50% lightgreen;
+   background-size: 25px;
+  }
+  textarea:focus:invalid {
+    background: url("https://assets.digitalocean.com/labs/icons/exclamation-triangle-fill.svg") no-repeat 95% 50% rgb(247, 218, 207);
+   background-size: 25px;
+  } 
+
+  .selector:required:valid {
+    border-color: green;
+  }
+  .selector:invalid {
+    border-color: red;
+  }
+
+.selector:focus{
+    background: none repeat scroll 0 0 #e0d8d8;
+    opacity: 0.4;
+}
+
+.selector:hover{
+    border: 2.5px solid rgb(198, 184, 184);
+}
+
+label{
+    color:#283a3a;
+}
+
+
+#label-color{
+    color: #fff;
+    font-size: 2rem;
+}
+
+
+#form1{
+    padding: 80px;
+}
+
+.input-type{
+    border-radius: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+
+
+@media screen and (max-width:459px){
+   textarea{
+        width: 250px;
+        height: 5px;
+    }
+    .fulldiv{
+        display: flex;
+        flex-direction: column;
+        width: 260px;
+    } 
+    label {
+        width: 250px;
+        height: 14px;
+    }
+    .form-group{
+        width: 250px;
+    }
+    .details{
+        width: 250px;
+    }
+    .division1 .division2{
+        width: 250px;
+        visibility: hidden;
+    }
+    #Patient h1{
+        text-align: center;
+        font-size: 1.8rem; 
+        position: relative; 
+        right: 40px;
+    }
+    .section-title{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .full-detail{
+        margin-right: 35px;
+        margin-left: 15px;
+    }
+    body{
+        width: auto;
+    }
+
+    .mul-select.option{
+        display:flex;
+        flex-direction: row;
+    }
+
+    input[type=submit]{
+        position: relative;
+        left: 10px;
+    }
+}
+/* ----------- Non-Retina Screens ----------- */
+
+/*------ @media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+}
+
+/*------ @media only screen and (min-width: 320px) {
+
+    /* Small screen, non-retina */
+  
+/*------  } ------*/
+  
+ /*------  @media
+  only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 320px),
+  only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 320px),
+  only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 320px),
+  only screen and (        min-device-pixel-ratio: 2)      and (min-width: 320px),
+  only screen and (                min-resolution: 192dpi) and (min-width: 320px),
+  only screen and (                min-resolution: 2dppx)  and (min-width: 320px) { 
+  
+    /* Small screen, retina, stuff to override above media query */
+  
+ /*------  }
+  
+  @media only screen and (min-width: 700px) {
+  
+    /* Medium screen, non-retina */
+  
+ /*------  }
+  
+  @media
+  only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 700px),
+  only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 700px),
+  only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 700px),
+  only screen and (        min-device-pixel-ratio: 2)      and (min-width: 700px),
+  only screen and (                min-resolution: 192dpi) and (min-width: 700px),
+  only screen and (                min-resolution: 2dppx)  and (min-width: 700px) { 
+  
+    /* Medium screen, retina, stuff to override above media query */
+  
+ /*------  }
+  
+  @media only screen and (min-width: 1300px) {
+  
+    /* Large screen, non-retina */
+  
+ /*------  }
+  
+  @media
+  only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 1300px),
+  only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 1300px),
+  only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 1300px),
+  only screen and (        min-device-pixel-ratio: 2)      and (min-width: 1300px),
+  only screen and (                min-resolution: 192dpi) and (min-width: 1300px),
+  only screen and (                min-resolution: 2dppx)  and (min-width: 1300px) { 
+  
+    /* Large screen, retina, stuff to override above media query */
+  
+ /*------  }

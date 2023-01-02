@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Medical</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+  </head>
+  <body>
+    <div class="complete">
+    <div class="full-tables">
+        <h1 class="title">QUESTIONNARIE FOR OPEN FRACTURE</h1>
+        <div>
+        <table class="size-table t1">
+            <tbody id="t1">
+                <caption>PATIENT DETAILS</caption>
+                <form>    
+                   <tr> <td> Name   : <span style="color: red;">*</span> <input type="text" name="Name" class="input" required/></td> <td>Name of Hospital : <span style="color: red;">*</span><input type="text" name="Name" class="input" required/></td>   </tr> <br />
+                   <tr > <td> Age/Sex:<span style="color: red;">*</span> <input type="text" name="Name"class="input" required/></td> <td>State :<span style="color: red;">*</span> <input type="text" name="Name"class="input" required/></td>   </tr> <br />
+                   <tr > <td> Address : <span style="color: red;">*</span><input type="text" name="Name"class="input" required/></td> <td>Consultant Surgeon : <span style="color: red;">*</span><input type="text" name="Name"class="input" required/></td>   </tr> <br />
+                   <tr > <td colspan="2"> Occupation: <input type="text" name="Name" class="input"optional /></tr> <br />
+                   <tr> <td colspan="2"> Height:<span style="color: red;">*</span><input type="text" name="Name" class="input" required /></td>  </tr> <br />
+                   <tr> <td colspan="2"> Weight:<span style="color: red;">*</span> <input type="text" name="Name" class="input" required/></td> </tr> <br />    
+                 </form> 
+            </tbody>
+        </table>
+    <div class="checkbox">
+<table class="t2">
+    <thead></thead>
+    <tbody>
+        <tr>
+        <th><p><strong>Time Of Injury</strong></p> </th>
+
+<td><label class="container"name=""><input type="checkbox" value="Morning"><span class="mark"></span>Morning</label>
+<td><label name=""><input type="checkbox" value="Afternoon">Afternoon</label></td>
+<td><label name=""><input type="checkbox" value="Evening">Evening</label></td>
+<td><label name=""><input type="checkbox" value="Night-Time">Night-Time</label></td>
+</tr>
+<br>
+<tr>
+    <th><p><strong>Time Of Arrival To Hopsipatal(after Injury)</strong></p> </th>
+    <td><label name=""><input type="checkbox" value="Morning">Less than 2 hours</label>
+        <td><label name=""><input type="checkbox" value="Afternoon">2-6 Hours</label></td>
+        <td><label name=""><input type="checkbox" value="Evening">6-24 Hours</label></td>
+        <td><label name=""><input type="checkbox" value="Night-Time">Greaterthan 24 Hours</label></td>
+    </tr>
+        <br>
+    <tr>
+        <th><p><strong>Gap Till Primary Debridement</strong></p> </th>
+        
+        <td colspan="1"><label name="" class="wide"><input type="checkbox" value="Morning">Less than 6 hours</label>
+            <td colspan="1"><label name="" class="wide"><input type="checkbox" value="Afternoon">6-12 Hours</label></td>
+            <td colspan="2"><label name="" class="wide"><input type="checkbox" value="Evening">Greaterthan 24 Hours</label>
+            </td> 
+       
+        </tr>
+        <br>
+        <tr>
+            <th><p><strong>Mode Of Injury</strong></p> </th>
+                <td><label name=""><input type="checkbox" value="Morning">High Energy</label>
+                <td><label name=""><input type="checkbox" value="Afternoon">Low Energy</label></td>
+                <td><label name=""><input type="checkbox" value="Evening">Crush Injury</label></td>
+                <td><label name=""><input type="checkbox" value="Night-Time">Farmyard Injury</label></td>
+    </tr>
+        <br>
+</table>
+<table class="size-table t3">
+      
+<tbody>
+   
+    <caption>
+        Type Of Injury
+      </caption>
+    
+    <tr>
+        <th><p><strong>Wound Size</strong></p> </th>
+            <td><label name=""><input type="checkbox" value="Morning">Less than 1cm</label>
+            <td><label name=""><input type="checkbox" value="Afternoon">1-10cm</label></td>
+            <td><label name=""><input type="checkbox" value="Evening">Greater than 10cm</label></td>
+        </tr>
+        <br>
+
+        <tr>
+            <th><p><strong>Crushing</strong></p> </th>
+                <td><label name=""><input type="checkbox" value="Morning">Simple</label>
+                <td><label name=""><input type="checkbox" value="Afternoon">Segmental</label></td>
+                <td><label name=""><input type="checkbox" value="Evening">Crush Injury</label></td>
+            </tr>
+            <br>
+
+            <tr>
+                <th><p><strong>Contamination</strong></p> </th>
+                    <td><label name=""><input type="checkbox" value="Morning">No</label>
+                    <td><label name=""><input type="checkbox" value="Afternoon">Mild</label></td>
+                    <td><label name=""><input type="checkbox" value="Evening">Significant</label></td>
+                </tr>
+                <br>
+            
+                <tr>
+                    <th><p><strong>Nerve Injury</strong></p> </th>
+                        <td colspan="1"><label name=""><input type="checkbox" value="">No</label>
+                        <td colspan="2"><label name=""><input type="checkbox" value="">Yes</label></td>
+                    </tr>
+                    <br>
+
+                    <tr>
+                        <th><p><strong>Vascular Injury</strong></p> </th>
+                            <td><label name=""><input type="checkbox" value="">No</label>
+                            <td  colspan="2"><label name=""><input type="checkbox" value="">Yes</label></td>
+                        </tr>
+                        <br>
+    </tbody>
+    </table>
+
+    <table class="size-table t4">
+      
+        <tbody>
+           
+            <caption>
+                Fracture Classification
+              </caption>
+            
+            <tr>
+                <th><p><strong>Upper Limb</strong></p> </th>
+                    <td><label name=""><input type="checkbox" value="Morning">Shoulder</label>
+                    <td><label name=""><input type="checkbox" value="Afternoon">Arm</label></td>
+                    <td><label name=""><input type="checkbox" value="Evening">Elbow</label></td>
+                    <td><label name=""><input type="checkbox" value="Afternoon">Forearm</label></td>
+                    <td><label name=""><input type="checkbox" value="Evening">Wrist</label></td>
+                    <td><label name=""><input type="checkbox" value="Evening">Hand </label></td>
+                </tr>
+                <br>
+                <tr>
+                    <th><p><strong>Lower Limb</strong></p> </th>
+                        <td><label name=""><input type="checkbox" value="Morning">Pelvis</label>
+                        <td><label name=""><input type="checkbox" value="Afternoon">Hip</label></td>
+                        <td><label name=""><input type="checkbox" value="Evening">Thigh</label></td>
+                        <td><label name=""><input type="checkbox" value="Afternoon">Knee</label></td>
+                        <td><label name=""><input type="checkbox" value="Evening">Leg</label></td>
+                        <td><label name=""><input type="checkbox" value="Evening">Foot </label></td>
+                    </tr>
+                    <br>
+
+                    <tr>
+                        <th><p><strong>Gustilo Anderson Classification</strong></p> </th>
+                            <td><label name=""><input type="checkbox" value="Morning">I</label>
+                            <td><label name=""><input type="checkbox" value="Afternoon">II</label></td>
+                            <td><label name=""><input type="checkbox" value="Evening">IIIA</label></td>
+                            <td><label name=""><input type="checkbox" value="Afternoon">IIIB</label></td>
+                            <td colspan="2"><label name=""><input type="checkbox" value="Evening">IIIC</label></td>
+                        </tr>
+                        <br>
+            </tbody>
+        </table>
+        <br>
+
+        <table class="size-table t5">
+      
+            <tbody>
+               
+                <caption>
+                    Ganga Score
+                  </caption>
+                
+                <tr>
+                    <th><p><strong>Skin & Fascia</strong></p> </th>
+                        <td><label name=""><input type="checkbox" value="Morning">1</label>
+                        <td><label name=""><input type="checkbox" value="Afternoon">2</label></td>
+                        <td><label name=""><input type="checkbox" value="Evening">3</label></td>
+                        <td><label name=""><input type="checkbox" value="Afternoon">4</label></td>
+                        <td><label name=""><input type="checkbox" value="Evening">5</label></td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <th><p><strong>Muscle & Nerve Unit</strong></p> </th>
+                            <td><label name=""><input type="checkbox" value="Morning">1</label>
+                            <td><label name=""><input type="checkbox" value="Afternoon">2</label></td>
+                            <td><label name=""><input type="checkbox" value="Evening">3</label></td>
+                            <td><label name=""><input type="checkbox" value="Afternoon">4</label></td>
+                            <td><label name=""><input type="checkbox" value="Evening">5</label></td>
+                        </tr>
+                        <br>
+    
+                       
+                         <tr>
+                            <th><p><strong>Skeletal Structure</strong></p> </th>
+                                <td><label name=""><input type="checkbox" value="Morning">1</label>
+                                <td><label name=""><input type="checkbox" value="Afternoon">2</label></td>
+                                <td><label name=""><input type="checkbox" value="Evening">3</label></td>
+                                <td><label name=""><input type="checkbox" value="Afternoon">4</label></td>
+                                <td colspan="2"><label name=""><input type="checkbox" value="Evening">5</label></td>
+                            </tr>
+                            <br>
+                            <tr>
+                                <th><p><strong>Co-Morbidity Score</strong></p> </th>
+                                    <td><label name=""><input type="checkbox" value="Morning">0</label>
+                                    <td><label name=""><input type="checkbox" value="Afternoon">2-4</label></td>
+                                    <td><label name=""><input type="checkbox" value="Evening">4-8</label></td>
+                                    <td colspan="2"><label name=""><input type="checkbox" value="Afternoon">8-14</label></td>
+                                </tr>
+                                <br>
+                </tbody>
+            </table>
+            <br>
+            <table class="size-table t6">
+                <thead></thead>
+                <tbody>
+                    <tr>
+                    <th><p><strong>Skeletal Trauma</strong></p> </th>
+            
+            <td colspan="2"><label name=""><input type="checkbox" value="Morning">Ipsilateral Same Limb</label>
+            <td colspan="2"><label name=""><input type="checkbox" value="Afternoon">Ipsilateral Other Limb</label></td>
+            <td colspan="2"><label name=""><input type="checkbox" value="Evening" style="margin-right: 10px;">Other <input type="text" placeholder="Mention if other" style="margin-left: 30px;"></label></td>
+            </tr>
+            <br>
+            <tr>
+                <th><p><strong>Associated Injury</strong></p> </th>
+                <td><label name=""><input type="checkbox" value="Morning">Head Injury</label>
+                    <td><label name=""><input type="checkbox" value="Afternoon">Chest Injury</label></td>
+                    <td><label name=""><input type="checkbox" value="Evening">Abd Injury</label></td>
+                    <td><label name=""><input type="checkbox" value="Night-Time">Hypotension</label></td>
+                    <td colspan="2"><label name=""><input type="checkbox" value="Evening" style="margin-right: 10px;">Other <input type="text" placeholder="Mention if other" style="margin-left: 30px;"></label></td>
+                </tr>
+                    <br>
+                <tr>
+                    <th><p><strong>Associated Medical Injury</strong></p> </th>
+                    
+                    <td ><label name="" class="wide"><input type="checkbox" value="Morning">DM</label>
+                        <td><label name="" class="wide"><input type="checkbox" value="Afternoon">HTN</label></td>
+                        <td ><label name="" class="wide"><input type="checkbox" value="Evening">Cardiac Illness</label>
+                        </td> 
+                        <td><label name="" class="wide"><input type="checkbox" value="Morning">Respiratory Illness</label>
+                            <td><label name="" class="wide"><input type="checkbox" value="Afternoon">Epilepsy</label></td>
+                        <td><label name=""><input type="checkbox" value="Evening" style="margin-right: 10px;">Other <input type="text" placeholder="Mention if other"></label></td>  
+                   
+                    </tr>
+                    <br>
+                    </tbody>
+            </table>
+<br>
+            <table class="size-table1">
+      
+                <tbody>
+                   
+                    <caption>
+                        Management Profile
+                      </caption>
+                    
+                    <tr>
+                        <th><p><strong>Pre-Hospital Care</strong></p> </th>
+                            <td colspan="3"><label name=""><input type="checkbox" value="Morning">Given</label>
+                            <td colspan="3"><label name=""><input type="checkbox" value="Afternoon">Not Given</label></td>
+                        </tr>
+                        <br>
+                        <tr>
+                            <th><p><strong>Initial Management</strong></p> </th>
+                                <td><label name=""><input type="checkbox" value="Morning">Fluid Wash</label>
+                                <td><label name=""><input type="checkbox" value="Afternoon">POP</label></td>
+                                <td colspan="2"><label name=""><input type="checkbox" value="Evening">External Fixator</label></td>
+                                <td colspan="2"><label name=""><input type="checkbox" value="Afternoon">Primary Sx</label></td>
+                            </tr>
+                            <br>
+        
+                           
+                             <tr>
+                                <th><p><strong>Total Blood Transfusion</strong></p> </th>
+                                    <td colspan="2"><label name=""><input type="checkbox" value="Morning">Nil</label>
+                                    <td colspan="2"><label name=""><input type="checkbox" value="Afternoon">1-2 Packs</label></td>
+                                    <td colspan="2"><label name=""><input type="checkbox" value="Evening">>2 Packs</label></td>
+                                </tr>
+                                <br>
+                                <tr>
+                                    <th><p><strong>Antibiotics</strong></p> </th>
+                                        <td><label name=""><input type="checkbox" value="Morning">None</label>
+                                        <td><label name=""><input type="checkbox" value="Afternoon">Single Antibiotic </label></td>
+                                        <td colspan="2"><label name=""><input type="checkbox" value="Evening">Double Antibiotic</label></td>
+                                        <td colspan="2"><label name=""><input type="checkbox" value="Afternoon">Triple Antibiotic </label></td>
+                                    </tr>
+                                    <br>
+
+                                    <tr>
+                                        <th><p><strong>Surgical Debridement</strong></p> </th>
+                                            <td><label name=""><input type="checkbox" value="Morning">Conservative</label>
+                                            <td><label name=""><input type="checkbox" value="Afternoon">Wash </label></td>
+                                            <td colspan="2"><label name=""><input type="checkbox" value="Evening">Radical</label></td>
+                                            <td colspan="2"><label name=""><input type="checkbox" value="Evening" style="margin-right: 10px;">Other <input type="text" placeholder="Mention if other" style="margin-left: 30px;"></label></td>  
+                                        </tr>
+                                        <br>
+                                        <tr>
+                                            <th><p><strong>Duration of Surgery</strong></p> </th>
+                                                <td colspan="2"><label name=""><input type="checkbox" value="Morning"> <1hr</label>
+                                                <td colspan="2"><label name=""><input type="checkbox" value="Afternoon">1-2hrs </label></td>
+                                                <td colspan="2"><label name=""><input type="checkbox" value="Evening">>2hrs</label></td>
+                                            </tr>
+                                            <br>
+                                            <tr>
+                                                <th><p><strong>Blood Loss</strong></p> </th>
+                                                    <td colspan="2"><label name=""><input type="checkbox" value="Morning"> <100ml</label>
+                                                    <td colspan="2"><label name=""><input type="checkbox" value="Afternoon">100-200ml </label></td>
+                                                    <td colspan="2"><label name=""><input type="checkbox" value="Evening">>200ml</label></td>
+                                                </tr>
+                                                <br>
+                                                <tr>
+                                         <th><p><strong>Implant Used</strong></p> </th>
+                                            <td><label name=""><input type="checkbox" value="Morning">None</label>
+                                          <td><label name=""><input type="checkbox" value="Afternoon">Ex.Fix </label></td>
+                                              <td><label name=""><input type="checkbox" value="Evening">Plating</label></td>
+                                              <td><label name=""><input type="checkbox" value="Evening">Nailing</label></td>
+                                             <td colspan="2"><label name=""><input type="checkbox" value="Evening" style="margin-right: 10px;">Other <input type="text" placeholder="Mention if other" style="margin-left: 30px;"></label></td>  
+                                                    </tr>
+                                                    <br>
+                                                    <tr>
+                                                        <th><p><strong>Soft Tissue Procedure</strong></p> </th>
+                                                            <td colspan="3"><label name=""><input type="checkbox" value="Morning">Yes</label>
+                                                            <td colspan="3"><label name=""><input type="checkbox" value="Afternoon">No</label></td>
+                                                        </tr>
+                                                        <br>
+                                                        <tr>
+                                                            <th><p><strong>Intra-Op Complication</strong></p> </th>
+                                                            <td><label name=""><input type="checkbox" value="Morning">Vascular Injury</label>
+                                                                <td><label name=""><input type="checkbox" value="Afternoon">Nerve Injury</label></td>
+                                                                <td><label name=""><input type="checkbox" value="Evening">Tendon</label></td>
+                                                                <td><label name=""><input type="checkbox" value="Night-Time">Bone Loss</label></td>
+                                                                <td colspan="2"><label name=""><input type="checkbox" value="Evening" style="margin-right: 10px;">Other <input type="text" placeholder="Mention if other" style="margin-left: 30px;"></label></td>
+                                                            </tr>
+                                                                <br>
+                                                                <tr>
+                                                                    <th><p><strong>Local Post-op Compilation</strong></p> </th>
+                                                                        <td colspan="2"><label name=""><input type="checkbox" value="Morning">None</label>
+                                                                        <td colspan="2"><label name=""><input type="checkbox" value="Afternoon">Mild Infection</label></td>
+                                                                        <td colspan="2"><label name=""><input type="checkbox" value="Afternoon">Severe Infection</label></td>
+                                                                    </tr>
+                                                                    <br>
+
+                                                                    <tr>
+                                                                        <th><p><strong>Post-Op Complication</strong></p> </th>
+                                                                        <td><label name=""><input type="checkbox" value="Morning">None</label>
+                                                                            <td><label name=""><input type="checkbox" value="Afternoon">ARDS</label></td>
+                                                                            <td><label name=""><input type="checkbox" value="Evening">Pul.Embolism</label></td>
+                                                                            <td><label name=""><input type="checkbox" value="Night-Time">ARF</label></td>
+                                                                            <td><label name=""><input type="checkbox" value="Night-Time">Vascular Injury</label></td>
+                                                                            <td colspan><label name=""><input type="checkbox" value="Evening" style="margin-right: 10px; margin-top: 20px;">Other <input type="text" placeholder="Mention if other" style="margin-left: 10px; margin-bottom: 30px;"></label></td>
+                                                                        </tr>
+                                                                            <br>
+                    </tbody>
+                </table>
+<div class="btn">  <input type="submit"></div>
+                
+            </div>
+        </div>
+        </div>
+    </div>
+  </body>
+</html>
